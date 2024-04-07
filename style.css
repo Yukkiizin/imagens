@@ -42,14 +42,13 @@ a:hover{
 }
 
 #img1{
-
     background:  black url(img/background001.jpg) no-repeat right center /cover fixed;
+    height: 100vh;
    
 }
 #img2{
-    
     background: black url(img/background002.jpg) no-repeat right center /cover fixed;
-   
+    height: 100vh;
 }
 
 section{
@@ -57,22 +56,20 @@ section{
     line-height: 2em;
     padding-bottom: 10vh;
     padding-left:30px ;
-    font-size: 3.5vh;
+    font-size: 3.5vw;
     font-family:var(--fonte3);
 }
 
 section.img{
     box-shadow: inset 6px 6px 13px 2px rgba(0, 0, 0, 0.458);
-    background-color: rgb(51, 51, 51)
+    background-color: rgb(51, 51, 51);
 }
 section.img p{
     display: inline-block;
     padding: 5px;
     color: white;
     text-shadow: 1px 1px 0px black;
-    
-    background-color: rgba(0, 0, 0, 0.514);
-   
+    background-color: rgba(0, 0, 0, 0.514);  
 }
 
 footer{
